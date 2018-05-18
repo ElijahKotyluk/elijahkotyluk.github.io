@@ -1,0 +1,14 @@
+* {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: url('../images/45degreee_fabric/45degreee_fabric.png');
+    height: 100%;
+}
