@@ -141,6 +141,7 @@ li {
     display: inline-block;
 	position: relative;
     transition: transform .1s ease-out;
+    left: 13em;
 }
 
 .portfolio-item:hover {
@@ -241,6 +242,10 @@ footer {
     float: right;
     margin-bottom: 10px;
     right: 5px;
+}
+
+.my-links img {
+    background-color: white;
 }
 
 .copyright {
