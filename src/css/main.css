@@ -34,7 +34,7 @@ a {
   justify-content: flex-end;
 }
 .navbar-toggler {
-  background: #fff !important;
+  background: #cec4c4 !important;
 }
 
 /*header style*/
@@ -71,7 +71,7 @@ a {
 .description button {
   border: 1px solid #81365b;
   background: #81365b;
-  color: #fff;
+  color: #cec4c4;
 }
 .about {
   margin: 4em 0;
@@ -148,42 +148,11 @@ a {
 .blog .card-body {
   padding: 1em;
 }
-.team {
-  margin: 4em 0;
-  position: relative;
-}
-.team h1 {
-  color: #81365b;
-  margin: 2em;
-}
-.team .item {
-  position: relative;
-  overflow: hidden;
-}
-.team .des {
-  background: #81365b;
-  color: #fff;
-  text-align: center;
-  border-top-right-radius: 93%;
-  transition: 0.3s ease-in-out;
-  position: absolute;
-  width: 88%;
-  bottom: 24px;
-}
-.team .item:hover .des {
-  height: 100%;
-  background: #81365c8e;
-  position: absolute;
-  width: 89%;
-  padding: 5em;
-  top: 0;
-  border-top-right-radius: 0;
-}
+
 .contact-form {
   margin: 6em 0;
   position: relative;
 }
-
 .contact-form h1 {
   padding: 2em 1px;
   color: #81365b;
@@ -199,4 +168,21 @@ a {
 .contact-form .right .form-control::placeholder {
   color: #888;
   font-size: 16px;
+}
+
+.my-links {
+  margin-right: 15px;
+}
+.my-links ul li {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px 10px;
+  -webkit-transition: all 0.2s;
+  -webkit-transition-timing-function: ease-out;
+  transition: all 0.2s;
+  transition-timing-function: ease-out;
+}
+.my-links img {
+  border-radius: 50%;
+  background-color: white;
 }
